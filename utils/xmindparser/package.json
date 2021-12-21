@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      "xmindparser@1.0.2",
+      "D:\\项目\\success-node-fe\\dashboard"
+    ]
+  ],
+  "_from": "xmindparser@1.0.2",
+  "_id": "xmindparser@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-wc91G1LNr2Smjjl6Aumglk/qimybfy8GZtgxrpN3Lb7yhpQbgBzFIzx+eCszl/qRfIHhdd7n9z8tLpAA8Tml9g==",
+  "_location": "/xmindparser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "xmindparser@1.0.2",
+    "name": "xmindparser",
+    "escapedName": "xmindparser",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/xmindparser/-/xmindparser-1.0.2.tgz",
+  "_spec": "1.0.2",
+  "_where": "D:\\项目\\success-node-fe\\dashboard",
+  "author": {
+    "name": "guanhuaxie",
+    "email": "15989449409@163.com"
+  },
+  "bugs": {
+    "url": "https://github.com/xieguanhua/xmindparser/issues"
+  },
+  "dependencies": {
+    "jszip": "^3.6.0",
+    "request": "^2.88.2",
+    "xmind": "^2.2.2",
+    "xml-formatter": "^2.4.0",
+    "xml-js": "^1.6.11"
+  },
+  "description": "xmind解析为kityminder json格式，与kityminder json转xmind格式（支持浏览器）",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  },
+  "homepage": "https://github.com/xieguanhua/xmindparser#readme",
+  "keywords": [
+    "xmind",
+    "json",
+    "kityminder",
+    "naotu"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "xmindparser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xieguanhua/xmindparser.git"
+  },
+  "scripts": {
+    "pub": "npm publish",
+    "test": "mocha"
+  },
+  "version": "1.0.2"
+}

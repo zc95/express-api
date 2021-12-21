@@ -6,7 +6,7 @@ const OSS = require('ali-oss');
 const { getFileName, getExtension } = require('../utils/file');
 
 // 存储文件
-var storage = multer.diskStorage({
+const storage = multer.diskStorage({
     // 存放的路径
     destination: function (req, file, cb) {
         cb(null, 'uploads');
